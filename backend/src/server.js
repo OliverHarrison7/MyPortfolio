@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 import express from 'express';
 import helmet from 'helmet';
 
-import { experience, overview, projects, skills } from './data/portfolio.js';
+import { profile, projects } from './data/portfolio.js';
 
 dotenv.config();
 
@@ -25,20 +25,12 @@ app.get('/api/health', (_req, res) => {
   res.json({ status: 'ok', timestamp: new Date().toISOString() });
 });
 
-app.get('/api/overview', (_req, res) => {
-  res.json(overview);
-});
-
-app.get('/api/skills', (_req, res) => {
-  res.json(skills);
+app.get('/api/profile', (_req, res) => {
+  res.json(profile);
 });
 
 app.get('/api/projects', (_req, res) => {
   res.json(projects);
-});
-
-app.get('/api/experience', (_req, res) => {
-  res.json(experience);
 });
 
 app.use((req, res) => {

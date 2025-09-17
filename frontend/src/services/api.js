@@ -8,22 +8,12 @@ const parseResponse = async (response) => {
   return response.json();
 };
 
-export const fetchOverview = async () => {
-  const res = await fetch(`${API_BASE}/overview`);
-  return parseResponse(res);
-};
-
-export const fetchSkills = async () => {
-  const res = await fetch(`${API_BASE}/skills`);
+export const fetchProfile = async () => {
+  const res = await fetch(`${API_BASE}/profile`);
   return parseResponse(res);
 };
 
 export const fetchProjects = async () => {
   const res = await fetch(`${API_BASE}/projects`);
-  return parseResponse(res);
-};
-
-export const fetchExperience = async () => {
-  const res = await fetch(`${API_BASE}/experience`);
   return parseResponse(res);
 };
