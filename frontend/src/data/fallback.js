@@ -18,30 +18,30 @@ export const fallbackProfile = {
 
 export const fallbackProjects = [
   {
-    id: 'pulse-analytics',
-    title: 'Pulse Analytics Platform',
+    id: 'placeholder-01',
+    title: 'Upcoming Project — Alpha',
+    period: '2025',
+    description:
+      'A flagship build in progress blending immersive UI, realtime data, and a premium product narrative. Case study coming soon.',
+    tech: ['React', 'TypeScript', 'Edge Functions'],
+    link: '#'
+  },
+  {
+    id: 'placeholder-02',
+    title: 'Upcoming Project — Beta',
     period: '2024',
     description:
-      'Realtime customer intelligence dashboard with adaptive storytelling and live collaboration tools for growth teams.',
-    tech: ['React', 'TypeScript', 'Serverless'],
-    link: 'https://example.com/pulse'
+      'Full-stack engagement currently under NDA. Expect a deep dive on design systems, accessibility, and performance.',
+    tech: ['Next.js', 'Node.js', 'Design Systems'],
+    link: '#'
   },
   {
-    id: 'nova-finance',
-    title: 'Nova Finance Studio',
-    period: '2023',
+    id: 'placeholder-03',
+    title: 'Upcoming Project — Gamma',
+    period: '2024',
     description:
-      'An Apple-esque marketing experience with dynamic 3D scenes, smooth scrubbing, and conversion-focused flows.',
-    tech: ['Next.js', 'Three.js', 'GSAP'],
-    link: 'https://example.com/nova'
-  },
-  {
-    id: 'atlas-system',
-    title: 'Atlas Design System',
-    period: '2022',
-    description:
-      'Multi-brand component system delivering consistent UX across web and mobile, backed by automated visual testing.',
-    tech: ['React', 'Storybook', 'Chromatic'],
-    link: 'https://example.com/atlas'
+      'A storytelling-focused marketing experience with motion design and cinematic visuals. Showcase launching shortly.',
+    tech: ['Framer Motion', 'Three.js', 'Storytelling'],
+    link: '#'
   }
 ];

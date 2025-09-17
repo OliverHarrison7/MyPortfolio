@@ -12,7 +12,6 @@ export default function App() {
   const { profile, projects, status } = usePortfolioData();
 
   const email = useMemo(() => profile.contact?.email ?? 'hello@oliver.dev', [profile]);
-
   return (
     <div className="page-shell">
       <div className="background" aria-hidden="true">
